@@ -9,7 +9,7 @@ app.register(appRoutes)
 
 app.listen({
   port: 5454,
-  host: 'https://server-production-6a90.up.railway.app/',
+  host: '0.0.0.0',
 }).then(() => {
   console.log('HTTP Server running!')
 })
